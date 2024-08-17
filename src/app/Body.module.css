@@ -1,0 +1,111 @@
+.body {
+  /* padding-top: 150px; */
+  background-color: black;
+  padding: 10%;
+}
+.body *{
+  color: white;
+  margin: 10px;
+}
+
+.div{
+  padding: 50px;
+}
+
+.header{
+  font-size: 3rem;
+}
+
+.first{
+  width: 60%;
+}
+
+.second{
+  border: 1px solid rgb(55, 55, 55);
+  border-radius: 3px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.blueButton{
+  background-color: rgb(61, 61, 250);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.1s ease;
+}
+.blueButton:hover {
+  background-color: rgb(147, 145, 255);
+}
+
+.products{
+  border-top: 1px solid rgb(55, 55, 55);
+  padding-top: 50px;
+  margin: 25px;
+}
+
+.productwhiteText{
+  width:50%;
+  font-size: x-large;
+}
+
+.productGreyText{
+  width:50%;
+  color:grey
+}
+
+.productHeaders{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 100px;
+  margin:50px;
+}
+
+.productButtons{
+  display: flex;
+  flex-direction: row;
+}
+
+.productButton{
+  display: flex;
+  background-color: rgb(38, 38, 38);
+  flex-direction: column;
+  width: 30%;
+  justify-content: center;
+}
+
+.baas{
+  color:rgb(148, 148, 255);
+}
+
+.ion{
+  color:rgb(120, 194, 137);
+}
+
+.atomic{
+}
+
+.greyButton{
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.1s ease;
+  border: 1px solid rgb(55, 55, 55);
+  padding: 0.5rem, 2rem; 
+  border-radius: 5px; 
+}
+.greyButton:hover {
+  background-color: white;
+  color: black
+}
+
+.greyBox{
+  padding: 5%;
+  border-radius: 10px;
+  background-color: rgb(54, 54, 54);
+  }
+.greyBoxText{
+  font-size: 2rem;
+
+}

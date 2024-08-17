@@ -1,0 +1,63 @@
+/* components/header.css */
+
+.header {
+    background-color: black;
+    padding: 1rem;
+    color: white;
+    width: 100%;
+    position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Ensures it stays above other content */
+
+  }
+  .header *{
+    margin: 5px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .navs:hover{
+    color: red;
+  }
+  
+  .button {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.1s ease;
+  }
+  
+  .button:hover {
+    background-color: gray;
+  }
+
+  .login{
+    background-color: rgb(61, 61, 250);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.1s ease;
+  }
+  .login:hover {
+    background-color: rgb(102, 99, 255);
+  }
+
+  .signup{
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.1s ease;
+    border: 1px solid rgb(55, 55, 55);
+    padding: 0.5rem, 2rem; 
+    border-radius: 5px; 
+  }
+  .signup:hover {
+    background-color: white;
+    color: black
+  }
+  
